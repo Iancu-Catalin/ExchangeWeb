@@ -5,7 +5,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     res.status(400).json({});
     return;
   }
-  const fetchRes = await fetch("http://localhost:7269/TradeOrder", {
+  const fetchRes = await fetch("https://localhost:7269/api/Deposit", {
     method: "GET",
   });
   res.status(200).send(await fetchRes.text());
