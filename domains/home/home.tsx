@@ -25,9 +25,7 @@ const Home: FC<Props> = ({ deposit, withdrawal, tradeOrder }) => {
             className="custom-select"
             id="inputGroupSelect02"
           >
-            <option selected value="1">
-              Deposits
-            </option>
+            <option value="1">Deposits</option>
             <option value="2">Trade Orders</option>
             <option value="3">Withdrawals</option>
           </select>

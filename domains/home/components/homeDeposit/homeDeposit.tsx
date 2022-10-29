@@ -3,7 +3,6 @@ import React, { FC } from "react";
 
 type Props = { deposit: Deposit[] };
 const HomeDeposit: FC<Props> = ({ deposit }) => {
-  console.log("Suntem aici " + deposit);
   return (
     <div>
       <table className="table">

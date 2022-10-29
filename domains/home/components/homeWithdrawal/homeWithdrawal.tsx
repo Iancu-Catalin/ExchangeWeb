@@ -3,7 +3,6 @@ import React, { FC } from "react";
 
 type Props = { withdrawal: Withdrawal[] };
 const HomeWithdrawal: FC<Props> = ({ withdrawal }) => {
-  console.log("Suntem aici " + withdrawal);
   return (
     <div>
       <table className="table">

@@ -3,7 +3,6 @@ import React, { FC } from "react";
 
 type Props = { tradeOrder: TradeOrder[] };
 const HomeTradeOrder: FC<Props> = ({ tradeOrder }) => {
-  console.log("Suntem aici " + tradeOrder);
   return (
     <div>
       <table className="table">
