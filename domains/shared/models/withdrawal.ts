@@ -1,4 +1,5 @@
 export type Withdrawal = {
   amount: number;
-  fromAdress: string;
+  toAdress: string;
+  wasApprovedByUser2fA: boolean;
 };
